@@ -45,11 +45,11 @@
         }
     </style>
 </head>
-<body class="bg-[#F9F5F0] text-[#3A2F2F]">
+<body id="top" class="bg-[#F9F5F0] text-[#3A2F2F]">
     <!-- Navbar -->
     <nav class="bg-white border-b border-[#EDE4D8] sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-x-3">
+            <a href="#top" class="flex items-center gap-x-3 cursor-pointer">
                 <div class="w-9 h-9 bg-[#3A2F2F] rounded-full flex items-center justify-center">
                     <span class="text-white text-xl font-bold">金</span>
                 </div>
@@ -57,6 +57,13 @@
                     <span class="font-bold text-xl tracking-tight">金卓獎</span>
                     <span class="text-xs text-[#C5A26F] block -mt-1">好同學專屬聚會</span>
                 </div>
+            </a>
+            
+            <div class="hidden md:flex items-center gap-x-6 text-sm font-medium text-[#6B5F52]">
+                <a href="#why" class="hover:text-[#3A2F2F] transition-colors">為什麼來</a>
+                <a href="#exclusive" class="hover:text-[#3A2F2F] transition-colors">好同學專屬</a>
+                <a href="#agenda" class="hover:text-[#3A2F2F] transition-colors">活動議程</a>
+                <a href="#register" class="hover:text-[#3A2F2F] transition-colors">報名方式</a>
             </div>
             
             <div class="flex items-center gap-x-4">
@@ -113,7 +120,7 @@
     </section>
 
     <!-- 為什麼大家想來 -->
-    <section class="max-w-6xl mx-auto px-6 pt-16 pb-12">
+    <section id="why" class="max-w-6xl mx-auto px-6 pt-16 pb-12">
         <div class="text-center mb-12">
             <div class="text-[#C5A26F] text-sm tracking-[2px] font-medium mb-3">WHY THIS NIGHT MATTERS</div>
             <h2 class="section-header">為什麼大家想來？</h2>
@@ -219,7 +226,7 @@
     </section>
 
     <!-- Agenda -->
-    <section class="bg-white border-y border-[#EDE4D8]">
+    <section id="agenda" class="bg-white border-y border-[#EDE4D8]">
         <div class="max-w-5xl mx-auto px-6 py-14">
             <div class="text-center mb-10">
                 <div class="text-[#C5A26F] text-sm tracking-[2px]">EVENT FLOW</div>
