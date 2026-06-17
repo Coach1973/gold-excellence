@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>好同學暨好夥伴專屬聚會 | 金卓獎 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&amp;family=Playfair+Display:wght@700&amp;display=swap');
+        
+        body {
+            font-family: 'Noto Sans TC', system-ui, -apple-system, sans-serif;
+        }
+        
+        .section-header {
+            font-size: 28px;
+            line-height: 1.15;
+            font-weight: 700;
+            color: #3A2F2F;
+        }
+
+        .hero-bg {
+            background: linear-gradient(rgba(58, 47, 47, 0.68), rgba(58, 47, 47, 0.78)), url('https://picsum.photos/id/1015/2000/1200');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+        .nav-scrolled {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #F8F1E9 0%, #F5EDE3 100%);
+        }
+    </style>
+</head>
+<body class="bg-[#F9F5F0] text-[#3A2F2F]">
+    <!-- Navbar -->
+    <nav class="bg-white border-b border-[#EDE4D8] sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-x-3">
+                <div class="w-9 h-9 bg-[#3A2F2F] rounded-full flex items-center justify-center">
+                    <span class="text-white text-xl font-bold">金</span>
+                </div>
+                <div>
+                    <span class="font-bold text-xl tracking-tight">金卓獎</span>
+                    <span class="text-xs text-[#C5A26F] block -mt-1">好同學專屬聚會</span>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-x-4">
+                <a href="#register" 
+                   class="px-6 py-2.5 text-sm font-medium border border-[#3A2F2F] rounded-full hover:bg-[#3A2F2F] hover:text-white transition-colors">
+                    一般報名
+                </a>
+                <a href="#exclusive" 
+                   class="px-6 py-2.5 text-sm font-medium bg-[#3A2F2F] text-white rounded-full hover:bg-[#2C2424] transition-colors flex items-center gap-x-2">
+                    <i class="fa-solid fa-users text-sm"></i>
+                    <span>好同學專屬</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg h-[100dvh] min-h-[620px] flex items-center relative">
+        <div class="max-w-5xl mx-auto px-6 text-white">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-x-2 bg-white/20 backdrop-blur-md px-4 py-1.5 rounded-full mb-6">
+                    <div class="w-2 h-2 bg-[#C5A26F] rounded-full animate-pulse"></div>
+                    <span class="text-sm tracking-[1.5px] font-medium">2026年7月3日（五）台北</span>
+                </div>
+                
+                <h1 class="text-[42px] md:text-[52px] leading-[1.1] font-bold tracking-[-1.5px] mb-6">
+                    頒獎典禮只是幌子，<br>
+                    我們這群人其實是想找個好理由<br>
+                    <span class="text-[#E8D5B7]">跟好朋友們見個面</span>
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-white/90 max-w-lg mb-10">
+                    金卓獎晚宴前，我們為好同學與 BNI 信任夥伴安排了一場專屬的重聚與連結。
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#exclusive" 
+                       class="inline-flex items-center justify-center px-9 py-4 bg-white text-[#3A2F2F] font-semibold rounded-2xl text-lg hover:bg-[#E8D5B7] transition-all active:scale-[0.985]">
+                        好同學好夥伴一起來
+                    </a>
+                    <a href="#register" 
+                       class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/70 hover:bg-white/10 text-white font-medium rounded-2xl text-lg transition-all">
+                        了解創作者席位
+                    </a>
+                </div>
+                
+                <div class="mt-8 flex items-center gap-x-4 text-sm text-white/70">
+                    <div>7月3日（五）18:00 開始</div>
+                    <div class="w-px h-3 bg-white/40"></div>
+                    <div>鉅星匯國際宴會廳</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 為什麼大家想來 -->
+    <section class="max-w-6xl mx-auto px-6 pt-16 pb-12">
+        <div class="text-center mb-12">
+            <div class="text-[#C5A26F] text-sm tracking-[2px] font-medium mb-3">WHY THIS NIGHT MATTERS</div>
+            <h2 class="section-header">為什麼大家想來？</h2>
+            <p class="text-[#6B5F52] mt-3 max-w-md mx-auto text-lg">不同的人有不同的理由，但都指向同一個答案——值得。</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="card bg-white rounded-3xl p-8 border border-[#EDE4D8]">
+                <div class="w-12 h-12 bg-[#F8F1E9] rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-heart text-[#C5A26F] text-3xl"></i>
+                </div>
+                <h3 class="font-bold text-2xl mb-3">想跟同學們見面</h3>
+                <p class="text-[#6B5F52] leading-relaxed text-lg">
+                    曾經一起上課、一起成長的夥伴，終於有個正式又溫暖的理由聚在一起。重溫那段一起努力的時光。
+                </p>
+            </div>
+            
+            <div class="card bg-white rounded-3xl p-8 border border-[#EDE4D8]">
+                <div class="w-12 h-12 bg-[#F8F1E9] rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-handshake text-[#C5A26F] text-3xl"></i>
+                </div>
+                <h3 class="font-bold text-2xl mb-3">高品質的人脈連結</h3>
+                <p class="text-[#6B5F52] leading-relaxed text-lg">
+                    BNI 信任夥伴與好同學聚集在這裡，都是願意互相支持、值得信賴的人。商業火花，往往從這裡開始。
+                </p>
+            </div>
+            
+            <div class="card bg-white rounded-3xl p-8 border border-[#EDE4D8]">
+                <div class="w-12 h-12 bg-[#F8F1E9] rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-trophy text-[#C5A26F] text-3xl"></i>
+                </div>
+                <h3 class="font-bold text-2xl mb-3">見證榮耀時刻</h3>
+                <p class="text-[#6B5F52] leading-relaxed text-lg">
+                    參加正式的金卓獎頒獎典禮，與創作者們一起見證屬於他們的榮耀。同時也讓自己的影響力被看見。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 好同學與好夥伴專屬體驗 -->
+    <section id="exclusive" class="max-w-6xl mx-auto px-6 py-16">
+        <div class="highlight-box rounded-3xl p-10 md:p-14 border border-[#E8D5B7]">
+            <div class="flex flex-col lg:flex-row gap-10 items-start">
+                <div class="lg:w-5/12">
+                    <div class="inline-block px-4 py-1 bg-[#3A2F2F] text-white text-xs tracking-widest rounded-full mb-4">LIMITED EXPERIENCE</div>
+                    <h2 class="section-header leading-none mb-4">好同學與好夥伴專屬體驗<br>金卓獎晚宴前的重聚之夜</h2>
+                    <p class="text-[#6B5F52] text-lg">這是專為好同學與 BNI 系列夥伴設計的「專屬場次」。</p>
+                </div>
+                
+                <div class="lg:w-7/12">
+                    <div class="space-y-6">
+                        <div class="flex gap-5">
+                            <div class="w-9 h-9 flex-shrink-0 mt-0.5">
+                                <i class="fa-solid fa-clock text-[#C5A26F] text-3xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-xl">18:00 – 19:10　小型商務人脈連結交流</div>
+                                <p class="text-[#6B5F52] mt-1 text-lg">輕鬆破冰 + 每人簡短分享 + 資源與需求媒合。讓信任的人脈真正產生連結。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-5">
+                            <div class="w-9 h-9 flex-shrink-0 mt-0.5">
+                                <i class="fa-solid fa-users text-[#C5A26F] text-3xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-xl">限量一桌（10人）</div>
+                                <p class="text-[#6B5F52] mt-1 text-lg">僅開放給好同學與 BNI 信任度高的夥伴。席次有限，先確認先得。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pt-3">
+                            <a href="#register" 
+                               class="inline-flex items-center gap-x-3 bg-[#3A2F2F] hover:bg-black transition-colors text-white px-8 py-3.5 rounded-2xl font-medium text-lg">
+                                <span>申請加入這一桌</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <p class="text-sm text-[#8B7A66] mt-3">我們會親自與你確認席次與詳細安排</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 創作者支持席 -->
+    <section class="max-w-6xl mx-auto px-6 pb-16">
+        <div class="grid md:grid-cols-5 gap-x-10 items-center">
+            <div class="md:col-span-2 mb-8 md:mb-0">
+                <div class="text-[#C5A26F] text-sm tracking-[2px] mb-2">CREATOR SUPPORT SEAT</div>
+                <h2 class="section-header">創作者支持席</h2>
+                <p class="mt-4 text-[#6B5F52] text-lg">把線上影響力，延伸到現場與支持者一起見證。</p>
+            </div>
+            
+            <div class="md:col-span-3 text-[#6B5F52] space-y-4 text-lg">
+                <p>今年金卓獎特別規劃「創作者支持席」，讓受獎者可以帶著長期支持自己的觀眾、客戶或夥伴，一起入座。</p>
+                <p>這不只是出席，更是一種「一起完成」的感覺。你可以依照自己的風格，與支持者共同留下美好回憶。</p>
+                <div class="pt-2">
+                    <span class="inline-block text-base px-4 py-1 bg-white border border-[#EDE4D8] rounded-full">1500元 / 人</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agenda -->
+    <section class="bg-white border-y border-[#EDE4D8]">
+        <div class="max-w-5xl mx-auto px-6 py-14">
+            <div class="text-center mb-10">
+                <div class="text-[#C5A26F] text-sm tracking-[2px]">EVENT FLOW</div>
+                <h2 class="section-header mt-2">活動議程</h2>
+            </div>
+            
+            <div class="max-w-2xl mx-auto space-y-5 text-lg">
+                <div class="flex gap-6 items-start">
+                    <div class="w-20 text-right flex-shrink-0 font-mono text-[#C5A26F]">18:00</div>
+                    <div><span class="font-medium">貴賓報到 + 好同學專屬交流開始</span>（限受邀桌）</div>
+                </div>
+                <div class="flex gap-6 items-start">
+                    <div class="w-20 text-right flex-shrink-0 font-mono text-[#C5A26F]">19:15</div>
+                    <div><span class="font-medium">金卓獎頒獎典禮正式開始</span></div>
+                </div>
+                <div class="flex gap-6 items-start">
+                    <div class="w-20 text-right flex-shrink-0 font-mono text-[#C5A26F]">19:45</div>
+                    <div><span class="font-medium">晚會開始</span>（ networking + 餐敘）</div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8 text-base text-[#8B7A66]">
+                地點：鉅星匯國際宴會廳（台北市中山區新生北路二段28號2樓）<br>
+                捷運中山站步行約5分鐘｜提供停車位
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Our Table -->
+    <section class="max-w-5xl mx-auto px-6 py-16">
+        <div class="text-center mb-10">
+            <h2 class="section-header">為什麼選擇跟我們這一桌？</h2>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-lg">
+            <div class="flex gap-5">
+                <i class="fa-solid fa-check-circle text-[#C5A26F] text-2xl mt-1"></i>
+                <div>
+                    <div class="font-semibold">高信任圈層</div>
+                    <p class="text-[#6B5F52] mt-1">都是曾經一起上課、或在 BNI 長期互信的夥伴，交流品質高。</p>
+                </div>
+            </div>
+            <div class="flex gap-5">
+                <i class="fa-solid fa-check-circle text-[#C5A26F] text-2xl mt-1"></i>
+                <div>
+                    <div class="font-semibold">專屬交流時段</div>
+                    <p class="text-[#6B5F52] mt-1">金卓獎晚宴開始前，我們先用70分鐘好好連結，不浪費任何時間。</p>
+                </div>
+            </div>
+            <div class="flex gap-5">
+                <i class="fa-solid fa-check-circle text-[#C5A26F] text-2xl mt-1"></i>
+                <div>
+                    <div class="font-semibold">情感 + 商業雙重價值</div>
+                    <p class="text-[#6B5F52] mt-1">既能重溫好同學情誼，也能碰撞真實的商業機會。</p>
+                </div>
+            </div>
+            <div class="flex gap-5">
+                <i class="fa-solid fa-check-circle text-[#C5A26F] text-2xl mt-1"></i>
+                <div>
+                    <div class="font-semibold">席次稀缺</div>
+                    <p class="text-[#6B5F52] mt-1">僅限一桌10人。我們會親自確認每一位參加者的適合度。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing & CTA -->
+    <section id="register" class="max-w-5xl mx-auto px-6 pb-16">
+        <div class="bg-[#3A2F2F] text-white rounded-3xl p-10 md:p-14">
+            <div class="grid md:grid-cols-2 gap-x-12 gap-y-10 items-center">
+                <div>
+                    <div class="text-[#C5A26F] tracking-widest text-sm mb-3">TICKET</div>
+                    <h3 class="text-4xl font-bold tracking-tight">參加方式</h3>
+                    
+                    <div class="mt-8">
+                        <div>
+                            <div class="flex items-baseline gap-x-3">
+                                <span class="text-5xl font-bold">1500元</span>
+                                <span class="text-white/70">/ 人</span>
+                            </div>
+                            <p class="text-white/70 mt-2 text-lg">好同學專屬體驗 / 創作者支持席</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <p class="text-white/80 mb-6 text-lg">想加入我們這一桌的好同學與 BNI 夥伴，請直接聯絡我們確認席次。</p>
+                    
+                    <div class="space-y-4">
+                        <a href="https://page.line.me/qaw8118h?openQrModal=true" target="_blank"
+                           class="flex items-center justify-center gap-x-3 w-full bg-[#00C300] hover:bg-[#00A800] transition-colors text-white font-semibold py-4 rounded-2xl text-lg">
+                            <i class="fa-brands fa-line text-xl"></i>
+                            <span>大樹教育 LINE 官方帳號</span>
+                        </a>
+                        
+                        <a href="tel:0988004118" 
+                           class="flex items-center justify-center gap-x-3 w-full bg-white text-[#3A2F2F] font-semibold py-4 rounded-2xl hover:bg-[#E8D5B7] transition-colors text-lg">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>陳小姐 0988-004-118</span>
+                        </a>
+                    </div>
+                    
+                    <p class="text-center text-sm text-white/50 mt-6">活動僅剩約兩週，建議盡快確認席次</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-[#EDE4D8] py-8">
+        <div class="max-w-5xl mx-auto px-6 text-center text-base text-[#8B7A66]">
+            <p>主辦單位：中華兩岸人文藝術交流協會　｜　協辦：歐華國際藝術文化交流協會、中華網紅協會</p>
+            <p class="mt-2">2026 金卓獎頒獎典禮　好同學暨好夥伴專屬聚會</p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('nav-scrolled', 'bg-white/95', 'backdrop-blur-lg');
+            } else {
+                nav.classList.remove('nav-scrolled', 'bg-white/95', 'backdrop-blur-lg');
+            }
+        });
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
